@@ -1,8 +1,24 @@
 aid: standard-economics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/standard-economics.png
 name: Standard Economics
-description: Standard Economics is a company surfaced as a portfolio company of lightspeed-venture-partners,
-  paradigm and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting
-  the enrichment pipeline.
+description: Standard Economics is building an "economic computer" aimed at financial inclusion
+  and intelligent capital allocation at global scale, describing a system with memory, judgment,
+  and the ability to improve its own decisions to deliver economic security. Its product surface
+  is Uno (uno.global). The company is backed by Lightspeed Venture Partners and Paradigm, and was
+  added to the API Evangelist network from VC-portfolio discovery. As of the latest enrichment pass
+  it publishes no public API, developer portal, documentation, SDKs, or /.well-known/ discovery
+  surface; this profile currently carries only a domain-security posture probe.
 url: https://raw.githubusercontent.com/api-evangelist/standard-economics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Financial Inclusion
+- Capital Allocation
+- Artificial Intelligence
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/standard-economics-domain-security.yml
 - type: Website
   url: https://www.standardeconomics.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
