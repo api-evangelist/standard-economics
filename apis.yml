@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Financial Inclusion
 - Capital Allocation
@@ -57,6 +57,7 @@ tags_raw:
 - Capital Allocation
 - Artificial Intelligence
 - Venture Backed
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
